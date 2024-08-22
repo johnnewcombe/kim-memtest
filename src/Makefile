@@ -20,7 +20,6 @@ test:build
 	mame kim1 -noreadconfig -rompath ../mame/roms -video opengl -skip_gameinfo -keymap -verbose -uimodekey CAPSLOCK -window -nomax -rs232 pty
 
 	# From Jeff Tranter, in response to how to use paper tape format.
-
 	# You need to select the terminal as a pty in the MAME configuration and then restart MAME.
  	# Check the device name used for the pty, e.g. dev/pts/1, and connect to that pty using a Linux terminal emulator such as minicom.
 
